@@ -176,6 +176,10 @@ footer {
     /* align-items: center; */
     /* width: 350px; */
   }
+
+  .snippet-container {
+    height: 17vh;
+  }
 }
 
 /* Small smartphones - image placeholders change color */
