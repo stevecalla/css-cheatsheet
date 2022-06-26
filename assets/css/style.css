@@ -162,6 +162,10 @@ footer {
     background: green;
   } */
 
+  header {
+    height: 30vh;
+  }
+
   main {
     display: flex;
     flex-direction: row;
