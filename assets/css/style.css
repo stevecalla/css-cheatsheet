@@ -1,9 +1,9 @@
 :root {
   /* tbd */
-  --main-bg-color: #33393F;
+  --main-bg-color: #33393f;
   --pink-lin-gradient-top: rgba(232, 102, 236, 0.3);
   --pink-lin-gradient-middle: rgba(232, 102, 236, 0.6);
-  --pink-bg-color: #E867EC;
+  --pink-bg-color: #e867ec;
   --border-radius: 5px;
 }
 
@@ -22,7 +22,7 @@ body {
 
 html {
   font-family: arial;
-  color: var(--pink-bg-color)
+  color: var(--pink-bg-color);
 }
 
 /* ------- HEADER SECTION --------- */
@@ -72,8 +72,8 @@ main {
 }
 
 .container:hover {
-    border: 4px dashed red;
-    /* transform: rotate(360deg); */
+  border: 4px dashed red;
+  /* transform: rotate(360deg); */
 }
 
 .title {
@@ -102,7 +102,11 @@ main {
   height: 20vh;
   margin: 5px;
   /* background-color: var(--pink-bg-color); */
-  background: linear-gradient(var(--pink-lin-gradient-top) 0%, var(--pink-lin-gradient-middle) 50%, var(--pink-bg-color) 100%);
+  background: linear-gradient(
+    var(--pink-lin-gradient-top) 0%,
+    var(--pink-lin-gradient-middle) 50%,
+    var(--pink-bg-color) 100%
+  );
   color: white;
   border-radius: var(--border-radius);
   /* text-align: center; */
