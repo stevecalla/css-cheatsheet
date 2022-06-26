@@ -44,8 +44,10 @@ header h1 {
 header p {
   width: 80vw;
   margin: 0px auto;
+  background-color: var(--main-bg-color);
   color: white;
   font-size: 14px;
+  opacity: 1;
 }
 
 /* ------- MAIN SECTION --------- */
