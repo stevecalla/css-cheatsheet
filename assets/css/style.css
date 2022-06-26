@@ -15,9 +15,10 @@
 }
 
 body {
-  /* height: 100vh; */
+  height: 100vh;
   background-color: var(--main-bg-color);
-  overflow: hidden;
+  /* overflow: hidden; */
+  overflow: scroll;
 }
 
 html {
@@ -57,9 +58,9 @@ main {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  height: 65vh;
+  /* height: 65vh; */
   /* margin: 0 20px 0 20px; */
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 
 .container {
